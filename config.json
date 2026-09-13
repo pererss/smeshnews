@@ -1,0 +1,56 @@
+{
+  "enabled": true,
+  "mode": "forward",
+  "notify_errors": true,
+  "delay": 0,
+  "routes": [
+    {
+      "id": "1",
+      "source": "@toporlive",
+      "destination": "@smeshnewsrus",
+      "enabled": false,
+      "via": "preview",
+      "last_processed_message_id": 200950
+    },
+    {
+      "id": "2",
+      "source": "@ross_name",
+      "destination": "@smeshnewsrus",
+      "enabled": true,
+      "via": "preview",
+      "last_processed_message_id": 10971
+    },
+    {
+      "id": "3",
+      "source": "@sienews",
+      "destination": "@smeshnewsrus",
+      "enabled": true,
+      "via": "preview",
+      "last_processed_message_id": 7381
+    },
+    {
+      "id": "4",
+      "source": "@bbbreaking",
+      "destination": "@smeshnewsrus",
+      "enabled": false,
+      "via": "preview",
+      "last_processed_message_id": 237764
+    },
+    {
+      "id": "5",
+      "source": "@mash",
+      "destination": "@smeshnewsrus",
+      "enabled": true,
+      "via": "preview",
+      "last_processed_message_id": 77767
+    },
+    {
+      "id": "6",
+      "source": "@topor",
+      "destination": "@smeshnewsrus",
+      "enabled": true,
+      "via": "preview",
+      "last_processed_message_id": 52385
+    }
+  ]
+}
